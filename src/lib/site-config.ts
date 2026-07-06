@@ -22,7 +22,7 @@ export const siteConfig = {
 
   address: {
     street: "Rua Dr. Manoel Rodrigues, 5",
-    district: "", // TODO: bairro (opcional)
+    district: "Vila Nogueira",
     city: "Varginha",
     state: "MG",
     zip: "37006-140",
