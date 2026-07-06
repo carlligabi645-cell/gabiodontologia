@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Instagram, Facebook, MapPin, Phone, Mail, Clock } from "lucide-react";
+import { Instagram, MapPin, Phone, Mail, Clock } from "lucide-react";
 import { navLinks, siteConfig } from "@/lib/site-config";
 import { Container } from "./Container";
 
@@ -24,15 +24,6 @@ export function Footer() {
               className="flex h-9 w-9 items-center justify-center rounded-full border border-border text-muted transition-colors hover:border-gold hover:text-gold"
             >
               <Instagram size={18} />
-            </a>
-            <a
-              href={siteConfig.social.facebook}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Facebook"
-              className="flex h-9 w-9 items-center justify-center rounded-full border border-border text-muted transition-colors hover:border-gold hover:text-gold"
-            >
-              <Facebook size={18} />
             </a>
           </div>
         </div>

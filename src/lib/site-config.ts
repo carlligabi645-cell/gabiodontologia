@@ -18,7 +18,7 @@ export const siteConfig = {
   // Contato — PLACEHOLDERS
   whatsapp: "5535992453191", // formato internacional, sem símbolos
   phoneDisplay: "(35) 99245-3191",
-  email: "contato@gabiodontologia.com.br",
+  email: "carlligabi645@gmail.com",
 
   address: {
     street: "Rua Dr. Manoel Rodrigues, 5",
@@ -36,8 +36,7 @@ export const siteConfig = {
   ],
 
   social: {
-    instagram: "https://instagram.com/",
-    facebook: "https://facebook.com/",
+    instagram: "https://instagram.com/dra.gabrielacarli",
   },
 } as const;
 
