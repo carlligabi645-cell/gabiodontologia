@@ -13,12 +13,12 @@ export const siteConfig = {
   tagline: "Odontologia de excelência com um cuidado que você sente.",
   description:
     "Clínica odontológica da Dra. Gabriela Carli. Tratamentos estéticos, clínicos e preventivos com atendimento humanizado e tecnologia de ponta.",
-  url: "https://gabrielacarli.com.br", // TODO: domínio real
+  url: "https://gabiodontologia.com.br",
 
   // Contato — PLACEHOLDERS
-  whatsapp: "5511999999999", // formato internacional, sem símbolos
-  phoneDisplay: "(11) 99999-9999",
-  email: "contato@gabrielacarli.com.br",
+  whatsapp: "5535992453191", // formato internacional, sem símbolos
+  phoneDisplay: "(35) 99245-3191",
+  email: "contato@gabiodontologia.com.br",
 
   address: {
     street: "Av. Exemplo, 1234 — Sala 56",
