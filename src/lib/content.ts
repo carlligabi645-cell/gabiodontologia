@@ -64,14 +64,24 @@ export const services: Service[] = [
       "https://images.unsplash.com/photo-1620053112354-13bd3d2eb6f1?auto=format&fit=crop&w=1200&q=80",
   },
   {
-    slug: "odontopediatria",
-    title: "Odontopediatria",
-    icon: "Baby",
-    short: "Atendimento gentil para os pequenos.",
+    slug: "endodontia",
+    title: "Endodontia",
+    icon: "Activity",
+    short: "Tratamento de canal com precisão e conforto.",
     description:
-      "Acompanhamento infantil em um ambiente acolhedor, criando uma relação positiva com o dentista desde os primeiros anos.",
+      "Tratamento de canal para eliminar a dor e preservar o dente comprometido por cárie profunda ou infecção, com técnicas modernas que tornam o procedimento mais rápido e confortável.",
     image:
-      "https://images.unsplash.com/photo-1581585095603-51a2a9d0f5e2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1200&q=80",
+  },
+  {
+    slug: "proteses",
+    title: "Próteses",
+    icon: "Smile",
+    short: "Reabilitação estética e funcional do sorriso.",
+    description:
+      "Próteses fixas e removíveis, coroas e facetas que devolvem função mastigatória, estética e naturalidade ao sorriso, feitas sob medida para cada paciente.",
+    image:
+      "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=1200&q=80",
   },
 ];
 

@@ -4,7 +4,8 @@ import {
   Sun,
   Anchor,
   AlignHorizontalDistributeCenter,
-  Baby,
+  Activity,
+  Smile,
   type LucideIcon,
 } from "lucide-react";
 import type { Service } from "@/lib/content";
@@ -15,7 +16,8 @@ const iconMap: Record<string, LucideIcon> = {
   Sun,
   Anchor,
   AlignHorizontalDistributeCenter,
-  Baby,
+  Activity,
+  Smile,
 };
 
 export function ServiceCard({ service }: { service: Service }) {
