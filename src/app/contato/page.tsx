@@ -37,8 +37,10 @@ export default function ContatoPage() {
                   <p className="text-sm text-muted">
                     {siteConfig.address.street}
                     <br />
-                    {siteConfig.address.district} — {siteConfig.address.city}/
-                    {siteConfig.address.state}
+                    {siteConfig.address.district
+                      ? `${siteConfig.address.district} — `
+                      : ""}
+                    {siteConfig.address.city}/{siteConfig.address.state}
                     <br />
                     CEP {siteConfig.address.zip}
                   </p>

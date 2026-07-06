@@ -9,7 +9,7 @@ export const siteConfig = {
   name: "Gabriela Carli",
   title: "Dra. Gabriela Carli — Odontologia",
   role: "Cirurgiã-Dentista",
-  cro: "CRO-XX 00000", // TODO: número real do CRO
+  cro: "CRO-MG 57351",
   tagline: "Odontologia de excelência com um cuidado que você sente.",
   description:
     "Clínica odontológica da Dra. Gabriela Carli. Tratamentos estéticos, clínicos e preventivos com atendimento humanizado e tecnologia de ponta.",
@@ -21,13 +21,12 @@ export const siteConfig = {
   email: "contato@gabiodontologia.com.br",
 
   address: {
-    street: "Av. Exemplo, 1234 — Sala 56",
-    district: "Jardim Modelo",
-    city: "São Paulo",
-    state: "SP",
-    zip: "01234-567",
-    // Embed de mapa genérico (troque pelo endereço real depois)
-    mapsQuery: "Avenida+Paulista+São+Paulo",
+    street: "Rua Dr. Manoel Rodrigues, 5",
+    district: "", // TODO: bairro (opcional)
+    city: "Varginha",
+    state: "MG",
+    zip: "37006-140",
+    mapsQuery: "Rua+Dr.+Manoel+Rodrigues,+5+-+Varginha+-+MG+37006-140",
   },
 
   hours: [

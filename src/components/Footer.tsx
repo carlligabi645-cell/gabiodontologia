@@ -62,8 +62,10 @@ export function Footer() {
               <span>
                 {siteConfig.address.street}
                 <br />
-                {siteConfig.address.district} — {siteConfig.address.city}/
-                {siteConfig.address.state}
+                {siteConfig.address.district
+                  ? `${siteConfig.address.district} — `
+                  : ""}
+                {siteConfig.address.city}/{siteConfig.address.state}
               </span>
             </li>
             <li className="flex gap-2">
