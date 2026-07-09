@@ -121,6 +121,21 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "bruxismo-o-que-e-e-como-tratar",
+    title: "Bruxismo: o que é e como a placa pode ajudar",
+    excerpt:
+      "Range ou aperta os dentes durante o sono? Entenda o bruxismo e como a placa protetora preserva o seu sorriso.",
+    date: "2026-07-05",
+    readingTime: "4 min",
+    cover: "/images/placa-bruxismo.jpeg",
+    content: [
+      "O bruxismo é o hábito involuntário de ranger ou apertar os dentes, que costuma acontecer durante o sono — mas também pode ocorrer ao longo do dia. Muitas pessoas convivem com ele sem perceber, até que surgem sinais como desgaste dos dentes, sensibilidade, dores na mandíbula, dores de cabeça ao acordar ou estalos na articulação.",
+      "As causas são variadas e frequentemente combinadas: estresse e ansiedade, alterações no sono, desalinhamento da mordida e até alguns hábitos do dia a dia. Por isso, o primeiro passo é sempre uma avaliação para identificar o que está por trás do problema no seu caso.",
+      "Um dos tratamentos mais eficazes é a placa de bruxismo (placa miorrelaxante), feita sob medida a partir de um molde dos seus dentes. Usada principalmente durante a noite, ela cria uma barreira entre as arcadas, protege o esmalte do desgaste, alivia a tensão nos músculos da mastigação e ajuda a proteger a articulação.",
+      "Além da placa, cuidar do estresse, melhorar a qualidade do sono e corrigir a mordida quando necessário fazem parte de um tratamento completo. Se você desconfia que range os dentes, agende uma avaliação: quanto antes o bruxismo é tratado, menores são os danos ao seu sorriso.",
+    ],
+  },
+  {
     slug: "importancia-da-limpeza-regular",
     title: "A importância da limpeza dental regular",
     excerpt:
@@ -135,21 +150,21 @@ export const posts: Post[] = [
       "Além da saúde, a limpeza deixa os dentes com aparência mais clara e o hálito mais fresco. É um cuidado simples que previne complicações maiores no futuro.",
     ],
   },
-  {
-    slug: "clareamento-dental-mitos-e-verdades",
-    title: "Clareamento dental: mitos e verdades",
-    excerpt:
-      "Será que clareamento enfraquece os dentes? Separamos as principais dúvidas sobre o procedimento.",
-    date: "2026-06-10",
-    readingTime: "5 min",
-    cover:
-      "https://images.unsplash.com/photo-1581591524425-c7e0978865fc?auto=format&fit=crop&w=1200&q=80",
-    content: [
-      "Um dos mitos mais comuns é o de que o clareamento danifica o esmalte. Quando realizado com acompanhamento profissional e produtos adequados, o procedimento é seguro e não enfraquece os dentes.",
-      "A sensibilidade temporária pode acontecer, mas costuma desaparecer em poucos dias. Produtos e géis dessensibilizantes ajudam a manter o conforto durante o tratamento.",
-      "Vale lembrar: clareamento não funciona em restaurações e coroas. Por isso, é essencial uma avaliação prévia para planejar o melhor resultado para o seu caso.",
-    ],
-  },
+  // {
+  //   slug: "clareamento-dental-mitos-e-verdades",
+  //   title: "Clareamento dental: mitos e verdades",
+  //   excerpt:
+  //     "Será que clareamento enfraquece os dentes? Separamos as principais dúvidas sobre o procedimento.",
+  //   date: "2026-06-10",
+  //   readingTime: "5 min",
+  //   cover:
+  //     "https://images.unsplash.com/photo-1581591524425-c7e0978865fc?auto=format&fit=crop&w=1200&q=80",
+  //   content: [
+  //     "Um dos mitos mais comuns é o de que o clareamento danifica o esmalte. Quando realizado com acompanhamento profissional e produtos adequados, o procedimento é seguro e não enfraquece os dentes.",
+  //     "A sensibilidade temporária pode acontecer, mas costuma desaparecer em poucos dias. Produtos e géis dessensibilizantes ajudam a manter o conforto durante o tratamento.",
+  //     "Vale lembrar: clareamento não funciona em restaurações e coroas. Por isso, é essencial uma avaliação prévia para planejar o melhor resultado para o seu caso.",
+  //   ],
+  // },
   {
     slug: "como-cuidar-do-sorriso-das-criancas",
     title: "Como cuidar do sorriso das crianças",

@@ -110,7 +110,7 @@ export default function SobrePage() {
         </Container>
       </section>
 
-      <section className="py-16 text-center">
+      <section className="pt-16 text-center">
         <Container>
           <Reveal>
             <p className="text-sm text-muted">{siteConfig.cro}</p>

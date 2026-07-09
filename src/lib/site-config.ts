@@ -30,7 +30,7 @@ export const siteConfig = {
   },
 
   hours: [
-    { day: "Segunda a Sexta", time: "09h00 — 19h00" },
+    { day: "Segunda a Sexta", time: "09h00 — 18h00" },
     { day: "Sábado", time: "09h00 — 13h00" },
     { day: "Domingo", time: "Fechado" },
   ],

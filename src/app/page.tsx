@@ -73,8 +73,8 @@ export default function HomePage() {
           <Reveal delay={0.15} className="relative">
             <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-[2rem] shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=900&q=80"
-                alt="Dra. Gabriela Carli em atendimento na clínica"
+                src="/images/gabi-home.jpeg"
+                alt="Dra. Gabriela Carli em sua clínica odontológica"
                 fill
                 priority
                 sizes="(max-width: 1024px) 90vw, 40vw"
@@ -82,7 +82,7 @@ export default function HomePage() {
               />
             </div>
             <div className="absolute -bottom-5 -left-2 hidden rounded-2xl border border-border bg-surface px-6 py-4 shadow-lg sm:block">
-              <p className="font-serif text-3xl font-semibold text-gold">+10</p>
+              <p className="font-serif text-3xl font-semibold text-gold">+7</p>
               <p className="text-xs text-muted">anos cuidando de sorrisos</p>
             </div>
           </Reveal>
@@ -142,10 +142,10 @@ export default function HomePage() {
       <section className="bg-surface-alt py-16 sm:py-24">
         <Container className="grid items-center gap-12 lg:grid-cols-2">
           <Reveal className="relative order-2 lg:order-1">
-            <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2rem] shadow-lg">
+            <div className="relative aspect-[4/5] w-full max-w-md overflow-hidden rounded-[2rem] shadow-lg lg:mx-0 mx-auto">
               <Image
-                src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1000&q=80"
-                alt="Ambiente da clínica odontológica"
+                src="/images/gabi-olhar.jpeg"
+                alt="Dra. Gabriela Carli analisando um modelo dental na clínica"
                 fill
                 sizes="(max-width: 1024px) 90vw, 45vw"
                 className="object-cover"

@@ -6,7 +6,7 @@ import { Container } from "./Container";
 export function Footer() {
   return (
     <footer className="mt-24 border-t border-border bg-surface-alt">
-      <Container className="grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-4">
+      <Container className="grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-3">
         <div>
           <p className="font-serif text-2xl font-semibold">Gabriela Carli</p>
           <p className="mt-1 text-xs uppercase tracking-[0.25em] text-gold">
@@ -70,7 +70,7 @@ export function Footer() {
           </ul>
         </div>
 
-        <div>
+        {/* <div>
           <h3 className="text-sm font-semibold uppercase tracking-wide">
             Horários
           </h3>
@@ -86,7 +86,7 @@ export function Footer() {
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
       </Container>
 
       <div className="border-t border-border">
