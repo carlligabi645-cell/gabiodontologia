@@ -50,7 +50,7 @@ export default function SobrePage() {
           <Reveal>
             <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-[2rem] shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=900&q=80"
+                src="/images/gabi.jpeg"
                 alt="Retrato da Dra. Gabriela Carli"
                 fill
                 sizes="(max-width: 1024px) 90vw, 40vw"
