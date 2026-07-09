@@ -48,7 +48,7 @@ export default function SobrePage() {
       <section className="py-16 sm:py-20">
         <Container className="grid items-center gap-12 lg:grid-cols-2">
           <Reveal>
-            <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-[2rem] shadow-xl">
+            <div className="relative mx-auto aspect-square w-full max-w-md overflow-hidden rounded-[2rem] shadow-xl">
               <Image
                 src="/images/gabi.jpeg"
                 alt="Retrato da Dra. Gabriela Carli"
